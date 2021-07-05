@@ -2,7 +2,7 @@
 
 ## Title
 
-Provision an simple Azure Linux VM with all necessary components for remote SSH access using username and password.
+Provision an simple Azure Linux VM with all necessary components for remote access
 
 ## Description
 
@@ -63,28 +63,3 @@ terraform destroy
 ## Authors
 
 Ben Graves - [LinkedIn](https://www.linkedin.com/in/ben7graves/), [GitHub](https://github.com/bgravesiac)
-
-## Requirements
-
-| Name | Version |
-|------|---------|
-| terraform | >= 1.0.1 |
-| azurerm | >= 2.66.0 |
-
-## Providers
-
-No provider.
-
-## Inputs
-
-| Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
-| admin_password | Appropriate value which will be used to log into the instance | `string` | n/a | yes |
-| admin_username | Appropriate value which will be used to log into the instance | `string` | n/a | yes |
-| resource_tags | Desired tags which should be applied to all resources | `map` | <pre>{<br>  "Environment": "Test",<br>  "Deployment": "Terraform"<br>}</pre> | no |
-
-
-## Outputs
-
-No output.
-
