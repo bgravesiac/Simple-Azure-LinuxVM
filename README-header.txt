@@ -8,7 +8,7 @@ Provision an simple Azure Linux VM with all necessary components for remote acce
 
 This Terraform IaC automates creating a Resource Group, Virtual Network, Subnet, NSG, Public IP Address, and Linux VM with NIC to allow remote SSH access.
 
-![Linux Image](https://github.com/bgravesiac/Simple--Azure-LinuxVM/blob/main/images/linux_simple.jpg)
+![Linux Image](https://github.com/bgravesiac/Simple-Azure-LinuxVM/blob/main/images/linux_simple.jpg)
 
 #### Resources Provisioned
 
